@@ -21,8 +21,8 @@ public class Vehiculo {
 		this.peso = peso;
 		this.traccion = traccion;
 		this.fabricante = fabricante;
-		Pais.añadir(this.fabricante.getPais());
-		Fabricante.añadir(this.fabricante);
+		Pais.anadir(this.fabricante.getPais());
+		Fabricante.anadir(this.fabricante);
 		Vehiculo.cantidadVehiculos++;
 	}
 	public String getPlaca() {return this.placa;}

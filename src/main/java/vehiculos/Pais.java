@@ -17,7 +17,7 @@ public class Pais {
 		this.nombre = n;
 	}
 	
-	public static void añadir(Pais p) {
+	public static void anadir(Pais p) {
 		Pais.paises.add(p);
 	}
 	

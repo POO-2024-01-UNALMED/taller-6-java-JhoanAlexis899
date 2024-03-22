@@ -27,7 +27,7 @@ public class Fabricante {
 		this.pais = p;
 	}
 	
-	public static void añadir(Fabricante f) {
+	public static void anadir(Fabricante f) {
 		Fabricante.fabricantes.add(f);
 	}
 	
